@@ -24,7 +24,8 @@ print(f"Status : {data['status']}")
 print(f"Message : {data['message']}")
 if status == "True":
     print("\n======[ RESULTS ]======\n")
-    print(f"Short Links : https://1nz.me/{data['result']['id']}")
+    print(f"Origin Links : ", url)
+    print(f"Short Links  : https://1nz.me/{data['result']['id']}")
     print(f"Delete Links : https://1nz.me/{data['result']['delete']}")
     print("\n======================\n")
 else:
