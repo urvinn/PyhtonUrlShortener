@@ -1,6 +1,15 @@
 import requests
 import os
 import json
+
+###############################
+# Bebas untuk diedit tanpa 
+# menghapus nama developer !
+###############################
+# Free to edit without 
+# removing the developer name !
+###############################
+
 os.system('cls||clear')
 url_header = "=======================\n Simple URL Shortener\n   Created By Vinn\n=======================\n"
 print(url_header)
