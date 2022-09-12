@@ -1,14 +1,14 @@
 import requests
 import os
 import json
-os.system('cls||Clear')
+os.system('cls||clear')
 url_header = "=======================\n Simple URL Shortener\n   Created By Vinn\n=======================\n"
 print(url_header)
 url = input("Masukan Url Asli : ")
-os.system('cls||Clear')
+os.system('cls||clear')
 print(url_header)
 customnya = input("Masukan Custom URL\n(OPTIONAL - Press Enter To Skip) : ")
-os.system('cls||Clear')
+os.system('cls||clear')
 print(url_header)
 print("Loading Data...")
 payload = {
@@ -17,7 +17,7 @@ payload = {
 }
 res = requests.post('https://1nz.me/create', data=payload)
 data = res.json()
-os.system('cls||Clear')
+os.system('cls||clear')
 print(url_header)
 status = (f"{data['status']}") 
 print(f"Status : {data['status']}")
